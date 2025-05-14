@@ -1,11 +1,13 @@
 
-const Feedback = ({ good, bad, neutral }) => {
+const Feedback = ({ good, bad, neutral, total, positive}) => {
     return (
-    <div>
+      <div>
         <p>Good:{good}</p>
         <p>Neutral: {neutral}</p>
         <p>Bad: {bad}</p>
-    </div>
-    )
+        <p>Total:{total}</p>
+        <p>Positive: {positive}</p>
+      </div>
+    );
 }
 export default Feedback;

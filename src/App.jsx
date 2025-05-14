@@ -60,10 +60,11 @@ function App() {
           <Feedback
             good={feedback.good}
             neutral={feedback.neutral}
-            bad={feedback.bad}
+              bad={feedback.bad}
+              total={totalFeedback}
+              positive={positiveFeedback}
           />
-            <p>Total:{totalFeedback}</p>
-            <p>Positive: {positiveFeedback}</p>
+            
         </>
       )}
     </>
